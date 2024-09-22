@@ -1,0 +1,7 @@
+
+
+Datatypes
+    1. Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double
+    2. Non-Primitive Data Type or Object Data type: such as String, Array, Class , interface, object ..etc.
+    Image : https://media.geeksforgeeks.org/wp-content/uploads/20240307140133/data-types-768.png
+

@@ -1,0 +1,6 @@
+Decision making in java 
+    if - else if -else
+    switch -case
+    jump -break, continue, return
+    
+    
