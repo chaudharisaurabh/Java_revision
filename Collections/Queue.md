@@ -61,8 +61,13 @@ class GFG {
 
 ```
 
+Methods of Queue Interface: The queue interface inherits all the methods present in the collections interface while implementing the following methods:
+
+<table><tbody><tr><th>Method</th><th>Description</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-peek-method-in-java/" target="_blank"><strong>peek()</strong></a></th><th>This method is used to view the head of queue without removing it. It returns Null if the queue is empty.</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-offer-method-in-java/" target="_blank"><strong>offer(element)</strong></a></th><th>This method is used to insert an element in the queue. This method is preferable to add() method since this method does not throws an exception when the capacity of the container is full since it returns false.</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-poll-method-in-java/" target="_blank"><strong>poll()</strong></a></th><th>This method removes and returns the head of the queue. It returns null if the queue is empty.</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-element-method-in-java/" target="_blank"><strong>element()</strong></a></th><th>This method is similar to peek(). It throws NoSuchElementException when the queue is empty.</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-add-method-in-java/" target="_blank"><strong>add(element)</strong></a></th><th>This method is used to add elements at the tail of queue. More specifically, at the last of linked-list if it is used, or according to the priority in case of priority queue implementation.</th></tr><tr><th><a href="https://www.geeksforgeeks.org/queue-remove-method-in-java/" target="_blank"><strong>remove()</strong></a></th><th>This method removes and returns the head of the queue. It throws NoSuchElementException when the queue is empty.</th></tr></tbody></table>
 
 
-``` java
+#### Application of Queue
 
-```
+1. When a resource is shared among multiple consumers. Examples include CPU scheduling, Disk Scheduling (First-come-First-serve scheduling), Web Server, Routers.
+2. Buffer queue to synchronize the speed of a fast and slow device.
+3. When data is transferred asynchronously (data not necessarily received at the same rate as sent) between two processes. Examples include IO Buffers, pipes, file IO, etc.
