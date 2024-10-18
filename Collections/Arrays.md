@@ -89,3 +89,115 @@ class multiDimensional
     }
 }
 ```
+
+#### Passing arrays to method
+
+``` java
+class Test
+{    
+    // Driver method
+    public static void main(String args[]) 
+    {
+        int arr[] = {3, 1, 2, 5, 4};
+        
+        // passing array to method m1
+        sum(arr);
+    
+    }
+
+    public static void sum(int[] arr) 
+    {
+        // getting sum of array values
+        int sum = 0;
+        
+        for (int i = 0; i < arr.length; i++)
+            sum+=arr[i];
+        
+        System.out.println("sum of array values : " + sum);
+    }
+}
+```
+
+#### Returning Arrays from Methods
+
+```java
+
+class Test
+{    
+    // Driver method
+    public static void main(String args[]) 
+    {
+        int arr[] = m1();
+        
+        for (int i = 0; i < arr.length; i++)
+            System.out.print(arr[i]+" ");
+    
+    }
+
+    public static int[] m1() 
+    {
+        // returning  array
+        return new int[]{1,2,3};
+    }
+}
+
+```
+
+#### Cloning of arrays
+
+When you clone a single dimensional array, such as Object[], a "deep copy" is performed with the new array containing copies of the original array's elements as opposed to references.
+
+``` java
+
+class Test
+{    
+    public static void main(String args[]) 
+    {
+        int intArray[] = {1,2,3};
+        
+        int cloneArray[] = intArray.clone();
+        
+        // will print false as deep copy is created
+        // for one-dimensional array
+        System.out.println(intArray == cloneArray);
+        
+        for (int i = 0; i < cloneArray.length; i++) {
+            System.out.print(cloneArray[i]+" ");
+        }
+    }
+}
+
+```
+
+![one-dimension array copy](image-2.png)
+
+
+A clone of a multidimensional array (like Object[][]) is a "shallow copy" however, which is to say that it creates only a single new array with each element array as a reference to an original element array but subarrays are shared.
+
+
+``` java
+
+class Test
+{    
+    public static void main(String args[]) 
+    {
+        int intArray[][] = {{1,2,3},{4,5}};
+        
+        int cloneArray[][] = intArray.clone();
+        
+        // will print false
+        System.out.println(intArray == cloneArray);
+        
+        // will print true as shallow copy is created
+        // i.e. sub-arrays are shared
+        System.out.println(intArray[0] == cloneArray[0]);
+        System.out.println(intArray[1] == cloneArray[1]);
+        
+    }
+}
+
+```
+
+
+![multi-dimension arrays copy](image-1.png)
+

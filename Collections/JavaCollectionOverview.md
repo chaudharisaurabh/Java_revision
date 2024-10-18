@@ -74,7 +74,8 @@ class Test
 
 ### Wildcards in generics
 
-
+---Pending
 
 ### Collection interface
+
 
