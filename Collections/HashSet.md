@@ -1,6 +1,10 @@
-## Set Interface in java
+## HashSet and LinkedHashSet
 
 [back](dataStructures.md)
+
+### Set Interface in java
+
+
 
 
 The set interface present in the java.util package and extends the Collection interface is an unordered collection of objects in which duplicate values cannot be stored. It is an interface which implements the mathematical set. This interface contains the methods inherited from the Collection interface and adds a feature which restricts the insertion of the duplicate elements. There are two interfaces which extend the set implementation namely SortedSet and NavigableSet.
@@ -237,6 +241,6 @@ class Test
 
 <table><tbody><tr><th>Method</th><th>Description</th></tr><tr><th><a href="https://www.geeksforgeeks.org/hashset-add-method-in-java/" target="_blank"><strong>add()</strong></a></th><th><span style="background-color:rgb(247,247,248);color:rgb(55,65,81);">Adds an element to the LinkedHashSet if it is not already present.</span></th></tr><tr><th><a href="https://www.geeksforgeeks.org/hashset-contains-method-in-java/" target="_blank"><strong>contains()</strong></a></th><th><span style="background-color:rgb(247,247,248);color:rgb(55,65,81);">Checks if the LinkedHashSet contains a specific element.</span></th></tr><tr><th><a href="https://www.geeksforgeeks.org/hashset-remove-method-in-java/" target="_blank"><strong>remove()</strong></a></th><th><span style="background-color:rgb(247,247,248);color:rgb(55,65,81);">Removes a specified element from the LinkedHashSet.</span></th></tr><tr><th><a href="https://www.geeksforgeeks.org/hashset-size-method-in-java/" target="_blank"><strong>size()</strong></a></th><th><span style="background-color:rgb(247,247,248);color:rgb(55,65,81);">Returns the number of elements in the LinkedHashSet.</span></th></tr><tr><th><a href="https://www.geeksforgeeks.org/hashset-isempty-method-in-java/" target="_blank"><strong>isEmpty()</strong></a></th><th><span style="background-color:rgb(247,247,248);color:rgb(55,65,81);">Checks if the LinkedHashSet is empty (contains no elements).</span></th></tr></tbody></table>
 
-
+## HashSet vs TreeSet
 
 

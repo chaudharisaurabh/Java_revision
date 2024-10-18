@@ -20,7 +20,7 @@
 
 #### 9. [HashSet and Linked HashSet](HashSet.md)
 
-#### 10. [Set](Set.md)
+#### 10. [TreeSet](TreeSet.md)
 
 #### 11. [HashMap and LinkedHashMap](HashMap.md)
 
